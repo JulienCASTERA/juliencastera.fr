@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component} from "react"
 
 class Me extends Component {
     render() {
@@ -6,9 +6,9 @@ class Me extends Component {
             <div>
                 Me
             </div>
-        );
+        )
     }
 }
 
 
-export default Me;
+export default Me
