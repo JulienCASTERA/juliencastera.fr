@@ -11,7 +11,7 @@ import Homepage from "./views/Homepage.jsx";
 export const AppRouter = () => (
     <BrowserRouter>
         <Navbar />
-        <div>
+        <div className="mt-2">
             <Switch>
                 <Route path="/me" component={Me} />
                 <Route path="/projects" component={Projects} />

@@ -1,17 +1,17 @@
-import React, {Component} from 'react'
-import NavLink, {BrowserRouter} from "react-router-dom";
+import React from 'react'
+import Alert from "../helpers/alert";
 
-class Homepage extends Component {
+class Homepage extends React.Component {
     render() {
         return (
             <>
                 Homepage
-                <BrowserRouter>
-                    <NavLink to="/about">About</NavLink>
-                </BrowserRouter>
-
             </>
         )
+    }
+
+    componentDidMount() {
+        Alert.success('test')
     }
 }
 

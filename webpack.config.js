@@ -12,6 +12,7 @@ Encore
 
     .addEntry('app', './assets/js/app.js')
     .addEntry('tailwind', './assets/css/tailwind.scss')
+    .addEntry('toastify', './assets/css/toastify.css')
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
@@ -48,4 +49,5 @@ Encore
     //.addEntry('admin', './assets/admin.js')
 ;
 
-module.exports = Encore.getWebpackConfig();
+module.exports = Encore.getWebpackConfig()
+
