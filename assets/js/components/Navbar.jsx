@@ -18,7 +18,7 @@ class Navbar extends React.Component {
                             <div className="md:ml-6 md:flex">
                                 <NavLink to='/' exact activeClassName='border-b-2 border-indigo-500 text-gray-900'
                                    className="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out">
-                                    Dashboard
+                                    Home
                                 </NavLink>
                                 <NavLink to='/me' exact activeClassName='border-b-2 border-indigo-500 text-gray-900'
                                    className="ml-8 inline-flex items-center px-1 pt-1 border-transparent text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out">
